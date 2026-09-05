@@ -67,8 +67,8 @@
         "collection_slider_eh4Dzq": {
           "type": "collection-slider",
           "settings": {
-            "cat_img": "shopify://shop_images/Untitled_design_18.png",
-            "cat_title": "Fossils",
+            "cat_img": "shopify://shop_images/images.jpg",
+            "cat_title": "Magzine",
             "cat_link": "shopify://collections/fossil"
           }
         },
