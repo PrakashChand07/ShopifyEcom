@@ -75,41 +75,33 @@
         "collection_slider_834GGg": {
           "type": "collection-slider",
           "settings": {
-            "cat_img": "shopify://shop_images/Untitled_design_13.png",
-            "cat_title": "G-shock",
+            "cat_img": "shopify://shop_images/E2871_E3168W.webp",
+            "cat_title": "Earings",
             "cat_link": "shopify://collections/g-shock"
           }
         },
         "collection_slider_X77j7j": {
           "type": "collection-slider",
           "settings": {
-            "cat_img": "shopify://shop_images/Untitled_design_16.png",
-            "cat_title": "Armani",
+            "cat_img": "shopify://shop_images/fd93c67d-2ee4-419f-b6c8-4902eb4b2bed.__CR0_0_1086_1448_PT0_SX300_V1.jpg",
+            "cat_title": "bangles",
             "cat_link": "shopify://collections/armani"
           }
         },
         "collection_slider_wnq7hC": {
           "type": "collection-slider",
           "settings": {
-            "cat_img": "shopify://shop_images/Untitled_design_15.png",
-            "cat_title": "Rolex",
+            "cat_img": "shopify://shop_images/images_1.jpg",
+            "cat_title": "payal",
             "cat_link": "shopify://collections/rolex"
           }
         },
         "collection_slider_9qMtWJ": {
           "type": "collection-slider",
           "settings": {
-            "cat_img": "shopify://shop_images/Untitled_design_14_f7f09165-d766-4ff4-9dcd-04a006e0d3f5.png",
-            "cat_title": "Tissot",
+            "cat_img": "shopify://shop_images/How_to_furnish_your_home_on_a_budget.jpg",
+            "cat_title": "Home Decore",
             "cat_link": "shopify://collections/tissot"
-          }
-        },
-        "collection_slider_78BNk3": {
-          "type": "collection-slider",
-          "settings": {
-            "cat_img": "shopify://shop_images/Untitled_design_17.png",
-            "cat_title": "Gucci",
-            "cat_link": "shopify://collections/gucci"
           }
         }
       },
@@ -118,8 +110,7 @@
         "collection_slider_834GGg",
         "collection_slider_X77j7j",
         "collection_slider_wnq7hC",
-        "collection_slider_9qMtWJ",
-        "collection_slider_78BNk3"
+        "collection_slider_9qMtWJ"
       ],
       "settings": {
         "section_width": 100,
