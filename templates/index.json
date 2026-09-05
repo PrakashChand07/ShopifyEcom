@@ -1,1 +1,480 @@
-{"sections":{"fa_autoplay_slideshow_HTLgd3":{"type":"fa-autoplay-slideshow","blocks":{"slide_zAMQiT":{"type":"slide","settings":{"slide_desktop":"shopify:\/\/shop_images\/Gray_Black_Modern_Minimalist_New_Arrival_Watch_Facebook_Post.png","collection_link":""}},"slide_yWKP9h":{"type":"slide","settings":{"slide_desktop":"shopify:\/\/shop_images\/White_Gold_Luxury_New_Watch_Arrivals_Medium_Banner_4.png","collection_link":""}},"slide_XUYWRD":{"type":"slide","settings":{"slide_desktop":"shopify:\/\/shop_images\/White_Gold_Luxury_New_Watch_Arrivals_Medium_Banner_3.png","collection_link":""}}},"block_order":["slide_zAMQiT","slide_yWKP9h","slide_XUYWRD"],"custom_css":[".swiper-pagination {position: relative; bottom: 55px;}"],"name":"Autoplay Slideshow","settings":{"autoplay_speed":2000,"bullet_color":"#ffffff","active_bullet_color":"#ffffff"}},"video_autoplay_4z4KFq":{"type":"video-autoplay","settings":{"heading":"","fullwidth":true,"autoplay":true,"controller":false}},"collection_slider_AbPnYC":{"type":"collection-slider","blocks":{"collection_slider_eh4Dzq":{"type":"collection-slider","settings":{"cat_img":"shopify:\/\/shop_images\/Untitled_design_18.png","cat_title":"Fossils","cat_link":"shopify:\/\/collections\/fossil"}},"collection_slider_834GGg":{"type":"collection-slider","settings":{"cat_img":"shopify:\/\/shop_images\/Untitled_design_13.png","cat_title":"G-shock","cat_link":"shopify:\/\/collections\/g-shock"}},"collection_slider_X77j7j":{"type":"collection-slider","settings":{"cat_img":"shopify:\/\/shop_images\/Untitled_design_16.png","cat_title":"Armani","cat_link":"shopify:\/\/collections\/armani"}},"collection_slider_wnq7hC":{"type":"collection-slider","settings":{"cat_img":"shopify:\/\/shop_images\/Untitled_design_15.png","cat_title":"Rolex","cat_link":"shopify:\/\/collections\/rolex"}},"collection_slider_9qMtWJ":{"type":"collection-slider","settings":{"cat_img":"shopify:\/\/shop_images\/Untitled_design_14_f7f09165-d766-4ff4-9dcd-04a006e0d3f5.png","cat_title":"Tissot","cat_link":"shopify:\/\/collections\/tissot"}},"collection_slider_78BNk3":{"type":"collection-slider","settings":{"cat_img":"shopify:\/\/shop_images\/Untitled_design_17.png","cat_title":"Gucci","cat_link":"shopify:\/\/collections\/gucci"}}},"block_order":["collection_slider_eh4Dzq","collection_slider_834GGg","collection_slider_X77j7j","collection_slider_wnq7hC","collection_slider_9qMtWJ","collection_slider_78BNk3"],"settings":{"section_width":100,"section_width_mobile":100,"image_width_desktop":150,"image_height_desktop":150,"image_width_mobile":86,"image_height_mobile":86,"border_radius":100,"padding_top":39,"padding_bottom":2,"font_title":"poppins_n7","title_size":1.5,"title_size_mobile":1.8}},"featured-collection":{"type":"featured-collection","custom_css":[],"settings":{"title":"Premium collection","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"trending","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"standard","columns_mobile":"2","swipe_on_mobile":false,"padding_top":20,"padding_bottom":24}},"rich_text_3NxQaL":{"type":"rich-text","blocks":{"heading_HAYc3f":{"type":"heading","settings":{"heading":"<strong>NEW ARRIVALS<\/strong>","heading_size":"h1"}}},"block_order":["heading_HAYc3f"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":12,"padding_bottom":12}},"marquee_UBmj7g":{"type":"marquee","blocks":{"text_NfyxAe":{"type":"text","settings":{"new_text":"Festival sale is live 🔥Shop Now🎁"}}},"block_order":["text_NfyxAe"],"custom_css":[],"settings":{"colorBackground":"#105063","colorText":"#fdfbf7","link":"shopify:\/\/collections\/all","marquee_height":30,"font_size":16}},"image_banner_efPQRU":{"type":"image-banner","custom_css":[],"settings":{"image":"shopify:\/\/shop_images\/Black_Simple_Elegant_Watch_Promotion_Facebook_Cover_1.png","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-26631f02-55cc-4ca7-b871-721db446a474","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":false}},"featured_product_3ejAEt":{"type":"featured-product","blocks":{"title_aJW7ta":{"type":"title","settings":{"heading_size":"h2"}},"price_9wd8ER":{"type":"price","settings":{}},"variant_picker_9tWfP4":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector_p3Xr6J":{"type":"quantity_selector","settings":{}},"buy_buttons_zG3VAy":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}}},"block_order":["title_aJW7ta","price_9wd8ER","variant_picker_9tWfP4","quantity_selector_p3Xr6J","buy_buttons_zG3VAy"],"custom_css":[".product-form__submit {background-color: #c7e8e1;"],"settings":{"product":"maserati-competizione-herrenuhr-zeit-und-datum-quarzwerk","color_scheme":"scheme-1","secondary_background":false,"media_size":"small","constrain_to_viewport":false,"media_fit":"contain","media_position":"left","image_zoom":"none","hide_variants":true,"enable_video_looping":false,"padding_top":20,"padding_bottom":24}},"featured_collection_r3WjUP":{"type":"featured-collection","custom_css":[],"settings":{"title":"New Arrival Collection","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"most-selling","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"round","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"standard","columns_mobile":"2","swipe_on_mobile":false,"padding_top":20,"padding_bottom":24}},"1727847171f216f1d0":{"type":"apps","settings":{"include_margins":true}},"featured_collection_dPqFHX":{"type":"featured-collection","settings":{"title":"Popular collection","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"popular-collection","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"parallelogram","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"standard","columns_mobile":"2","swipe_on_mobile":false,"padding_top":20,"padding_bottom":24}},"multicolumn_iNxRLC":{"type":"multicolumn","blocks":{"column_EVNDrU":{"type":"column","settings":{"title":"Love the product🔥❤️","text":"<p>Full value for money,my expercience with Genzees was totally amazing ,Firstly I have trust issues that are they genuine or not but they are 100% genuine and I love the quality of the product<br\/><strong>Deepak kumar<\/strong><br\/><strong>⭐⭐⭐⭐⭐<\/strong><\/p>","link_label":"","link":""}},"column_Qdtixi":{"type":"column","settings":{"title":"Pure Genuine Experience","text":"<p>Generally I don't Give review And all But They guys really give best service and best quality in this price segment.You are never gonna regret your purchase.Highly recommended<br\/><strong>Jyoti Singh<br\/><\/strong>⭐⭐⭐⭐⭐<\/p>","link_label":"","link":""}},"column_rayxDW":{"type":"column","settings":{"title":"Genuine and Trustworthy for sure👌","text":"<p>I got the best deal on sale ,Firstly i am scared to do Online payement still I do ,and I am very happy that I got best deal and got around 200Off love you Guys .I am very happy and satisfied<br\/><strong>Ritesh <\/strong><br\/>⭐⭐⭐⭐⭐<\/p>","link_label":"","link":""}}},"block_order":["column_EVNDrU","column_Qdtixi","column_rayxDW"],"settings":{"title":"Why our Customers Love us❤️","heading_size":"h2","image_width":"third","image_ratio":"circle","columns_desktop":3,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":true,"padding_top":20,"padding_bottom":24}},"trust_badges_rbdPBQ":{"type":"Trust-badges","blocks":{"trustbadge_gm_RVYHnW":{"type":"trustbadge-gm","settings":{"heading":"<h3>Premium Quality<\/h3>","paragraph":"We offer All the Premium Quality Products"}},"trustbadge_gm_k4Hq7K":{"type":"trustbadge-gm","settings":{"heading":"<h3>Cash on Delivery<\/h3>","paragraph":"We offer Cash on delivery Pan India"}},"trustbadge_gm_xexw3R":{"type":"trustbadge-gm","settings":{"heading":"<h3>Customer support<\/h3>","paragraph":"We offer Best After sales service and best customer support"}},"trustbadge_gm_zhfCix":{"type":"trustbadge-gm","settings":{"heading":"<h3>Free Shipping<\/h3>","paragraph":"We offer free shipping Pan India"}}},"block_order":["trustbadge_gm_RVYHnW","trustbadge_gm_k4Hq7K","trustbadge_gm_xexw3R","trustbadge_gm_zhfCix"],"disabled":true,"settings":{"icon_width":50,"icon_width_mobile":60,"image_margin_right":20,"heading_font":"sans_serif_n4","paragraph_font":"sans_serif_n4","font_size_heading":18,"font_size_heading_mobile":18,"font_size_paragraph":14,"font_size_paragraph_mobile":14,"margin_bottom_heading":10,"paragraph_lineheight":1.5,"heading_color":"#333333","paragraph_color":"#272727","section_background":"#ffffff","trustbadge_background":"#ffffff","border_radius":8,"padding_top":10,"padding_bottom":10,"padding_container":20}}},"order":["fa_autoplay_slideshow_HTLgd3","video_autoplay_4z4KFq","collection_slider_AbPnYC","featured-collection","rich_text_3NxQaL","marquee_UBmj7g","image_banner_efPQRU","featured_product_3ejAEt","featured_collection_r3WjUP","1727847171f216f1d0","featured_collection_dPqFHX","multicolumn_iNxRLC","trust_badges_rbdPBQ"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "fa_autoplay_slideshow_HTLgd3": {
+      "type": "fa-autoplay-slideshow",
+      "blocks": {
+        "slide_zAMQiT": {
+          "type": "slide",
+          "settings": {
+            "slide_desktop": "shopify://shop_images/Invite_1.png",
+            "slide_mobile": "shopify://shop_images/Invite_1.png",
+            "collection_link": ""
+          }
+        },
+        "slide_yWKP9h": {
+          "type": "slide",
+          "settings": {
+            "slide_desktop": "shopify://shop_images/Invite.png",
+            "slide_mobile": "shopify://shop_images/Invite.png",
+            "collection_link": ""
+          }
+        },
+        "slide_XUYWRD": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_desktop": "shopify://shop_images/White_Gold_Luxury_New_Watch_Arrivals_Medium_Banner_3.png",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_zAMQiT",
+        "slide_yWKP9h",
+        "slide_XUYWRD"
+      ],
+      "custom_css": [
+        ".swiper-pagination {position: relative; bottom: 55px;}"
+      ],
+      "name": "Autoplay Slideshow",
+      "settings": {
+        "autoplay_speed": 2000,
+        "bullet_color": "#ffffff",
+        "active_bullet_color": "#ffffff"
+      }
+    },
+    "video_autoplay_4z4KFq": {
+      "type": "video-autoplay",
+      "settings": {
+        "heading": "",
+        "fullwidth": true,
+        "autoplay": true,
+        "controller": false
+      }
+    },
+    "collection_slider_AbPnYC": {
+      "type": "collection-slider",
+      "blocks": {
+        "collection_slider_eh4Dzq": {
+          "type": "collection-slider",
+          "settings": {
+            "cat_img": "shopify://shop_images/Untitled_design_18.png",
+            "cat_title": "Fossils",
+            "cat_link": "shopify://collections/fossil"
+          }
+        },
+        "collection_slider_834GGg": {
+          "type": "collection-slider",
+          "settings": {
+            "cat_img": "shopify://shop_images/Untitled_design_13.png",
+            "cat_title": "G-shock",
+            "cat_link": "shopify://collections/g-shock"
+          }
+        },
+        "collection_slider_X77j7j": {
+          "type": "collection-slider",
+          "settings": {
+            "cat_img": "shopify://shop_images/Untitled_design_16.png",
+            "cat_title": "Armani",
+            "cat_link": "shopify://collections/armani"
+          }
+        },
+        "collection_slider_wnq7hC": {
+          "type": "collection-slider",
+          "settings": {
+            "cat_img": "shopify://shop_images/Untitled_design_15.png",
+            "cat_title": "Rolex",
+            "cat_link": "shopify://collections/rolex"
+          }
+        },
+        "collection_slider_9qMtWJ": {
+          "type": "collection-slider",
+          "settings": {
+            "cat_img": "shopify://shop_images/Untitled_design_14_f7f09165-d766-4ff4-9dcd-04a006e0d3f5.png",
+            "cat_title": "Tissot",
+            "cat_link": "shopify://collections/tissot"
+          }
+        },
+        "collection_slider_78BNk3": {
+          "type": "collection-slider",
+          "settings": {
+            "cat_img": "shopify://shop_images/Untitled_design_17.png",
+            "cat_title": "Gucci",
+            "cat_link": "shopify://collections/gucci"
+          }
+        }
+      },
+      "block_order": [
+        "collection_slider_eh4Dzq",
+        "collection_slider_834GGg",
+        "collection_slider_X77j7j",
+        "collection_slider_wnq7hC",
+        "collection_slider_9qMtWJ",
+        "collection_slider_78BNk3"
+      ],
+      "settings": {
+        "section_width": 100,
+        "section_width_mobile": 100,
+        "image_width_desktop": 150,
+        "image_height_desktop": 150,
+        "image_width_mobile": 86,
+        "image_height_mobile": 86,
+        "border_radius": 100,
+        "padding_top": 39,
+        "padding_bottom": 2,
+        "font_title": "poppins_n7",
+        "title_size": 1.5,
+        "title_size_mobile": 1.8
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "Premium collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "trending",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_3NxQaL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HAYc3f": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>NEW ARRIVALS</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HAYc3f"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "marquee_UBmj7g": {
+      "type": "marquee",
+      "blocks": {
+        "text_NfyxAe": {
+          "type": "text",
+          "settings": {
+            "new_text": "Festival sale is live 🔥Shop Now🎁"
+          }
+        }
+      },
+      "block_order": [
+        "text_NfyxAe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "colorBackground": "#105063",
+        "colorText": "#fdfbf7",
+        "link": "shopify://collections/all",
+        "marquee_height": 30,
+        "font_size": 16
+      }
+    },
+    "image_banner_efPQRU": {
+      "type": "image-banner",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/Black_Simple_Elegant_Watch_Promotion_Facebook_Cover_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-26631f02-55cc-4ca7-b871-721db446a474",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "featured_product_3ejAEt": {
+      "type": "featured-product",
+      "blocks": {
+        "title_aJW7ta": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_9wd8ER": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_9tWfP4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_p3Xr6J": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_zG3VAy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title_aJW7ta",
+        "price_9wd8ER",
+        "variant_picker_9tWfP4",
+        "quantity_selector_p3Xr6J",
+        "buy_buttons_zG3VAy"
+      ],
+      "custom_css": [
+        ".product-form__submit {background-color: #c7e8e1;"
+      ],
+      "settings": {
+        "product": "maserati-competizione-herrenuhr-zeit-und-datum-quarzwerk",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_r3WjUP": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "New Arrival Collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "most-selling",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "round",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
+    "1727847171f216f1d0": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_collection_dPqFHX": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Popular collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "popular-collection",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "parallelogram",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
+    "multicolumn_iNxRLC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EVNDrU": {
+          "type": "column",
+          "settings": {
+            "title": "Love the product🔥❤️",
+            "text": "<p>Full value for money,my expercience with Genzees was totally amazing ,Firstly I have trust issues that are they genuine or not but they are 100% genuine and I love the quality of the product<br/><strong>Deepak kumar</strong><br/><strong>⭐⭐⭐⭐⭐</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Qdtixi": {
+          "type": "column",
+          "settings": {
+            "title": "Pure Genuine Experience",
+            "text": "<p>Generally I don't Give review And all But They guys really give best service and best quality in this price segment.You are never gonna regret your purchase.Highly recommended<br/><strong>Jyoti Singh<br/></strong>⭐⭐⭐⭐⭐</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rayxDW": {
+          "type": "column",
+          "settings": {
+            "title": "Genuine and Trustworthy for sure👌",
+            "text": "<p>I got the best deal on sale ,Firstly i am scared to do Online payement still I do ,and I am very happy that I got best deal and got around 200Off love you Guys .I am very happy and satisfied<br/><strong>Ritesh </strong><br/>⭐⭐⭐⭐⭐</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EVNDrU",
+        "column_Qdtixi",
+        "column_rayxDW"
+      ],
+      "settings": {
+        "title": "Why our Customers Love us❤️",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
+    "trust_badges_rbdPBQ": {
+      "type": "Trust-badges",
+      "blocks": {
+        "trustbadge_gm_RVYHnW": {
+          "type": "trustbadge-gm",
+          "settings": {
+            "heading": "<h3>Premium Quality</h3>",
+            "paragraph": "We offer All the Premium Quality Products"
+          }
+        },
+        "trustbadge_gm_k4Hq7K": {
+          "type": "trustbadge-gm",
+          "settings": {
+            "heading": "<h3>Cash on Delivery</h3>",
+            "paragraph": "We offer Cash on delivery Pan India"
+          }
+        },
+        "trustbadge_gm_xexw3R": {
+          "type": "trustbadge-gm",
+          "settings": {
+            "heading": "<h3>Customer support</h3>",
+            "paragraph": "We offer Best After sales service and best customer support"
+          }
+        },
+        "trustbadge_gm_zhfCix": {
+          "type": "trustbadge-gm",
+          "settings": {
+            "heading": "<h3>Free Shipping</h3>",
+            "paragraph": "We offer free shipping Pan India"
+          }
+        }
+      },
+      "block_order": [
+        "trustbadge_gm_RVYHnW",
+        "trustbadge_gm_k4Hq7K",
+        "trustbadge_gm_xexw3R",
+        "trustbadge_gm_zhfCix"
+      ],
+      "disabled": true,
+      "settings": {
+        "icon_width": 50,
+        "icon_width_mobile": 60,
+        "image_margin_right": 20,
+        "heading_font": "sans_serif_n4",
+        "paragraph_font": "sans_serif_n4",
+        "font_size_heading": 18,
+        "font_size_heading_mobile": 18,
+        "font_size_paragraph": 14,
+        "font_size_paragraph_mobile": 14,
+        "margin_bottom_heading": 10,
+        "paragraph_lineheight": 1.5,
+        "heading_color": "#333333",
+        "paragraph_color": "#272727",
+        "section_background": "#ffffff",
+        "trustbadge_background": "#ffffff",
+        "border_radius": 8,
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "padding_container": 20
+      }
+    }
+  },
+  "order": [
+    "fa_autoplay_slideshow_HTLgd3",
+    "video_autoplay_4z4KFq",
+    "collection_slider_AbPnYC",
+    "featured-collection",
+    "rich_text_3NxQaL",
+    "marquee_UBmj7g",
+    "image_banner_efPQRU",
+    "featured_product_3ejAEt",
+    "featured_collection_r3WjUP",
+    "1727847171f216f1d0",
+    "featured_collection_dPqFHX",
+    "multicolumn_iNxRLC",
+    "trust_badges_rbdPBQ"
+  ]
+}
