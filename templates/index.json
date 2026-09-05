@@ -338,6 +338,40 @@
         "padding_bottom": 24
       }
     },
+    "image_banner_ggrHYg": {
+      "type": "image-banner",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/Black_Simple_Elegant_Watch_Promotion_Facebook_Cover_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-26631f02-55cc-4ca7-b871-721db446a474",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_EkBxPP": {
+      "type": "image-banner",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/Black_Simple_Elegant_Watch_Promotion_Facebook_Cover_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-26631f02-55cc-4ca7-b871-721db446a474",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "featured_collection_Fte7Nh": {
       "type": "featured-collection",
       "settings": {
@@ -549,8 +583,10 @@
     "featured_collection_r3WjUP",
     "1727847171f216f1d0",
     "featured_collection_dPqFHX",
+    "image_banner_ggrHYg",
     "featured_collection_Fte7Nh",
     "featured_collection_WGJmRH",
+    "image_banner_EkBxPP",
     "featured_collection_xa7jJh",
     "multicolumn_iNxRLC",
     "trust_badges_rbdPBQ"
