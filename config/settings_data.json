@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/timelogo.jpg",
+    "logo": "shopify://shop_images/Untitled_design_1.png",
     "logo_width": 120,
     "favicon": "shopify://shop_images/Untitled_design_10.png",
     "type_header_font": "poppins_n5",
@@ -162,7 +162,7 @@
           "text_gxbER4"
         ],
         "settings": {
-          "colorBackground": "#82081A",
+          "colorBackground": "#82081a",
           "colorText": "#ffffff",
           "link": "shopify://collections/all",
           "marquee_height": 34,
