@@ -394,6 +394,34 @@
         "padding_bottom": 24
       }
     },
+    "featured_collection_xa7jJh": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Home Decore Collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "popular-collection",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "parallelogram",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
     "multicolumn_iNxRLC": {
       "type": "multicolumn",
       "blocks": {
@@ -523,6 +551,7 @@
     "featured_collection_dPqFHX",
     "featured_collection_Fte7Nh",
     "featured_collection_WGJmRH",
+    "featured_collection_xa7jJh",
     "multicolumn_iNxRLC",
     "trust_badges_rbdPBQ"
   ]
