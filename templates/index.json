@@ -275,6 +275,63 @@
         "padding_bottom": 24
       }
     },
+    "featured_product_MbmHng": {
+      "type": "featured-product",
+      "blocks": {
+        "title_zUVmDE": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_UQG8m4": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_HrQaxQ": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_KXqKct": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_MpNjXE": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title_zUVmDE",
+        "price_UQG8m4",
+        "variant_picker_HrQaxQ",
+        "quantity_selector_KXqKct",
+        "buy_buttons_MpNjXE"
+      ],
+      "custom_css": [
+        ".product-form__submit {background-color: #c7e8e1;"
+      ],
+      "settings": {
+        "product": "maserati-competizione-herrenuhr-zeit-und-datum-quarzwerk",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
     "featured_collection_r3WjUP": {
       "type": "featured-collection",
       "custom_css": [],
@@ -355,23 +412,6 @@
         "show_text_below": false
       }
     },
-    "image_banner_EkBxPP": {
-      "type": "image-banner",
-      "custom_css": [],
-      "settings": {
-        "image": "shopify://shop_images/Black_Simple_Elegant_Watch_Promotion_Facebook_Cover_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-26631f02-55cc-4ca7-b871-721db446a474",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "featured_collection_Fte7Nh": {
       "type": "featured-collection",
       "settings": {
@@ -426,6 +466,23 @@
         "swipe_on_mobile": false,
         "padding_top": 20,
         "padding_bottom": 24
+      }
+    },
+    "image_banner_EkBxPP": {
+      "type": "image-banner",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/Black_Simple_Elegant_Watch_Promotion_Facebook_Cover_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-26631f02-55cc-4ca7-b871-721db446a474",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
       }
     },
     "featured_collection_xa7jJh": {
@@ -587,6 +644,7 @@
     "featured_collection_Fte7Nh",
     "featured_collection_WGJmRH",
     "image_banner_EkBxPP",
+    "featured_product_MbmHng",
     "featured_collection_xa7jJh",
     "multicolumn_iNxRLC",
     "trust_badges_rbdPBQ"
