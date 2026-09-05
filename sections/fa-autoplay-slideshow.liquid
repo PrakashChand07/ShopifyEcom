@@ -1,0 +1,237 @@
+{% comment %}
+  ---------------------------------------------------------
+  homepage-banner-autoplay-slideshow
+  ---------------------------------------------------------
+{% endcomment %}
+
+{%- liquid
+  assign unique_id = section.id
+  assign autoplay_speed = section.settings.autoplay_speed
+  assign bullet_color = section.settings.bullet_color
+  assign active_bullet_color = section.settings.active_bullet_color
+-%}
+
+<style>
+  .autoplay-slideshow-{{ unique_id }} {
+    width: 100%;
+    position: relative;
+  }
+
+  .autoplay-slideshow-{{ unique_id }} .swiper-wrapper {
+    width: 100%;
+    height: auto; /* Ensure height adjusts automatically */
+    aspect-ratio: 1920 / 740; /*Adjust them as per the size of your banner image*/
+    position: relative;
+  }
+
+  @media screen and (max-width: 749px) {
+    .autoplay-slideshow-{{ unique_id }} .swiper-wrapper {
+      aspect-ratio: 800 / 800; /*Adjust them as per the size of your banner image*/
+    }
+  }
+
+  /* Ensure slides fill the wrapper */
+  .swiper-slide.swiper-slide-{{ unique_id }} {
+    width: 100%;
+    height: 100%; /* Matches swiper-wrapper height */
+    top: 0;
+    left: 0;
+  }
+
+  .swiper-slide.swiper-slide-{{ unique_id }} img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-slideshow-{{ unique_id }} .swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+    min-height: 16px; /* Ensures space is always reserved */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden but still takes space */
+    transition: opacity 0.3s ease-in-out;
+  }
+
+
+  .autoplay-slideshow-{{ unique_id }} .swiper-pagination.swiper-pagination-bullets {
+    opacity: 1; /* Becomes visible when Swiper initializes */
+  }
+
+
+  .autoplay-slideshow-{{ unique_id }} .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: {{ bullet_color }};
+    transition: all 0.5s ease-in-out;
+  }
+
+   .autoplay-slideshow-{{ unique_id }} .swiper-pagination-bullet-active {
+    width: 10px;
+    background-color: {{ active_bullet_color }};
+  }
+
+  @media screen and (max-width: 640px) {
+    .autoplay-slideshow-{{ unique_id }} .swiper-pagination {
+     margin-top: 16px;
+     min-height: 12px; /* Adjusted for mobile */
+    }
+    .autoplay-slideshow-{{ unique_id }} .swiper-pagination-bullet {
+      width: 8px;
+      height: 8px;
+    }
+    .autoplay-slideshow-{{ unique_id }} .swiper-pagination-bullet-active {
+      width: 8px;
+    }
+  }
+</style>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+>
+
+<!-- Swiper -->
+<div class="swiper autoplay-slideshow-{{ unique_id }}">
+  <div class="swiper-wrapper swiper-wrapper-{{ unique_id }}">
+    {% for block in section.blocks %}
+      <div class="swiper-slide swiper-slide-{{ unique_id }}">
+        <a href="{{ block.settings.collection_link }}">
+          <picture>
+            <!-- Desktop image (min-width: 750px) -->
+            <source
+              media="(min-width: 750px)"
+              srcset="{{ block.settings.slide_desktop | image_url: width: 1920 }}"
+              width="1920"
+              height="740"
+            >
+            <!-- Mobile image (max-width: 749px) -->
+            <source
+              media="(max-width: 749px)"
+              srcset="{{ block.settings.slide_mobile | image_url: width: 750 }}"
+              width="800"
+              height="800"
+            >
+            <!-- Fallback image -->
+            <img
+              src="{{ block.settings.slide_desktop | image_url: width: 1920 }}"
+              alt="{{ block.settings.slide_desktop.alt | escape }}"
+              width="1600"
+              height="740"
+              loading="eager"
+            >
+          </picture>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="swiper-pagination swiper-pagination-{{ unique_id }}"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer="defer"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    var swiperEl = document.querySelector(".autoplay-slideshow-{{ unique_id }}");
+
+    var swiper = new Swiper(".autoplay-slideshow-{{ unique_id }}", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+        delay: {{ autoplay_speed }},
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination-{{ unique_id }}",
+        clickable: true,
+      },
+      on: {
+        init: function () {
+          console.log("Swiper initialized after DOM is ready.");
+        },
+      },
+    });
+
+    // Pause autoplay on hover
+    swiperEl.addEventListener("mouseenter", function () {
+      swiper.autoplay.stop();
+    });
+
+    // Resume autoplay when mouse leaves
+    swiperEl.addEventListener("mouseleave", function () {
+      swiper.autoplay.start();
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Autoplay Slideshow",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {"groups": ["header", "footer"]},
+  "settings": [
+        {
+          "type": "range",
+          "id": "autoplay_speed",
+          "label": "Rotate slides in ms",
+          "info": "1000ms = 1sec",
+          "min": 1000,
+          "max": 9000,
+          "step": 1000,
+          "default": 2000,
+          "unit": "ms"
+        },
+      {
+      "type": "color",
+      "id": "bullet_color",
+      "label": "Bullet Color",
+      "default": "#1e1e1e"
+      },
+     {
+      "type": "color",
+      "id": "active_bullet_color",
+      "label": "Active Bullet Color",
+      "default": "#0080FF"
+      }
+  ],
+  "blocks": [
+    {
+      "name": "Slide",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_desktop",
+          "label": "Desktop Slide",
+          "info": "Recommended size: 1920x640px. Adjust size to your needs."
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_mobile",
+          "label": "Mobile Slide",
+          "info": "Recommended size: 750x1100px. Adjust size to your needs."
+        },
+        {
+          "type": "url",
+          "id": "collection_link",
+          "label": "Collection Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Autoplay Slideshow"
+    }
+  ]
+}
+{% endschema %}

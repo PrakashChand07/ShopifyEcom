@@ -1,0 +1,358 @@
+{% comment %} 	
+    Trust badge with image on the left
+    © 2024 Genius Maker
+{% endcomment %}
+
+{%- liquid 
+assign heading_font = section.settings.heading_font
+assign paragraph_font = section.settings.paragraph_font
+assign font_size_heading = section.settings.font_size_heading
+assign font_size_heading_mobile = section.settings.font_size_heading_mobile
+assign font_size_paragraph = section.settings.font_size_paragraph
+assign font_size_paragraph_mobile = section.settings.font_size_paragraph_mobile
+assign paragraph_lineheight = section.settings.paragraph_lineheight
+
+assign padding_container = section.settings.padding_container
+
+assign icon_width = section.settings.icon_width
+assign icon_width_mobile = section.settings.icon_width_mobile
+assign image_margin_right = section.settings.image_margin_right
+assign margin_bottom_heading = section.settings.margin_bottom_heading
+
+assign padding_top = section.settings.padding_top
+assign padding_bottom = section.settings.padding_bottom
+
+assign section_background = section.settings.section_background
+assign trustbadge_background = section.settings.trustbadge_background
+
+assign heading_color = section.settings.heading_color
+assign paragraph_color = section.settings.paragraph_color
+
+assign border_radius = section.settings.border_radius
+
+
+
+-%}
+
+<style>
+
+  {{ heading_font | font_face: font_display: 'swap' }}
+ {{ paragraph_font | font_face: font_display: 'swap' }}
+  
+  .trustbadge-container {
+     display: grid;
+    gap: 5px;
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+    background-color: {{ section_background }};
+    
+  }
+
+  @media screen and (min-width: 1024px) {
+    .trustbadge-container {
+     grid-template-columns: {% if section.blocks.size == 8 %} repeat(4, 1fr); {% elsif section.blocks.size == 6 %} repeat(3, 1fr);  {% elsif section.blocks.size == 4 %} repeat(4, 1fr); {% else %} repeat(4, 1fr); {% endif %}
+      justify-content: space-around;
+    }
+  }
+
+   @media screen and (min-width: 749px) and (max-width: 1023px) {
+    .trustbadge-container {
+      grid-template-columns: repeat(2, 1fr);
+     justify-content: center;
+    }
+  }
+
+  
+  
+@media screen and (max-width: 748px) {
+  .trustbadge-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+  
+    .trustbadge-content {
+      display: flex;
+      align-items: center;
+       padding: {{ padding_container }}px;
+      background-color: {{ trustbadge_background }};
+     border-radius: {{ border_radius }}%;
+      justify-content: center;
+    }
+
+  @media screen and (max-width: 749px) {
+     .trustbadge-content {
+      margin-left: 10px;
+     }
+  }
+
+   .trustbadge-content img {
+      width: {{ icon_width }}px;
+      margin-right: {{ image_margin_right }}px;
+     object-fit: cover;
+    }
+
+  @media screen and (max-width: 748px) {
+    .trustbadge-content img {
+     width: {{ icon_width_mobile }}px;
+    }
+  }
+
+    .trustbadge-text > h3 {
+      margin: 0;
+      margin-bottom: {{ margin_bottom_heading }}px;
+      font-size: {{ font_size_heading }}px;
+      font-family: {{ heading_font.family }}, {{ heading_font.fallback_families }};
+      color: {{ heading_color }};
+    }
+
+  @media screen and (max-width: 748px) {
+      .trustbadge-text > h3 {
+        font-size: {{ font_size_heading_mobile }}px;
+      }
+  }
+
+    .trustbadge-text > p {
+      margin: 0;
+      font-size: {{ font_size_paragraph }}px;
+      font-family: {{ paragraph_font.family }}, {{ paragraph_font.fallback_families }};
+      color: {{ paragraph_color }};
+      line-height: {{ paragraph_lineheight }}rem;
+    }
+
+  @media screen and (max-width: 748px) {
+      .trustbadge-text > p {
+        font-size: {{ font_size_paragraph_mobile }}px;
+      }
+  }
+  
+</style>
+
+<div class="trustbadge-container">
+  {% for block in section.blocks %}
+  <div class="trustbadge-content">
+    <img src="{{ block.settings.icon | img_url: ' master ' }}" alt="block.settings.heading">
+    <div class="trustbadge-text">
+      <h3>{{ block.settings.heading }}</h3>
+      <p>{{ block.settings.paragraph }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Trustbadge GM",
+  "settings": [
+    
+     {
+      "type": "range",
+      "id": "icon_width",
+      "label": "Icon Width",
+      "default": 50,
+      "min": 10,
+      "max": 500,
+      "step": 5,
+      "unit": "px"
+    },
+
+         {
+      "type": "range",
+      "id": "icon_width_mobile",
+      "label": "Icon Width Mobile",
+      "default": 50,
+      "min": 10,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+       {
+      "type": "range",
+      "id": "image_margin_right",
+      "label": "Icon Margin Right",
+      "default": 20,
+      "min": 4,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading Font",
+      "default": "helvetica_n4"
+    },
+
+      {
+      "type": "font_picker",
+      "id": "paragraph_font",
+      "label": "Paragraph Font",
+      "default": "helvetica_n4"
+    },
+    {
+      "type": "range",
+      "id": "font_size_heading",
+      "label": "Font Size Heading",
+      "default": 18,
+      "min": 5,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+
+       {
+      "type": "range",
+      "id": "font_size_heading_mobile",
+      "label": "Font Size Heading Mobile",
+      "default": 18,
+      "min": 5,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+
+        {
+      "type": "range",
+      "id": "font_size_paragraph",
+      "label": "Font Size Paragraph",
+      "default": 14,
+      "min": 5,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+
+            {
+      "type": "range",
+      "id": "font_size_paragraph_mobile",
+      "label": "Font Size Paragraph Mobile",
+      "default": 14,
+      "min": 5,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+         {
+      "type": "range",
+      "id": "margin_bottom_heading",
+      "label": "Margin Bottom Heading",
+      "default": 10,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+     {
+       "type": "range",
+       "id": "paragraph_lineheight",
+       "label": "Text Line Height",
+       "default": 1.5,
+       "min": 1,
+       "max": 4,
+       "step": 0.1, 
+       "unit": "rem"
+     },
+  {
+    "type": "color",
+    "id": "heading_color",
+    "label": "Heading Color",
+    "default": "#333333"
+  },
+    {
+      "type": "color",
+      "id": "paragraph_color",
+      "label": "Paragraph Color",
+      "default": "#272727"
+    },
+
+    {
+  "type": "color_background",
+  "id": "section_background",
+  "label": "Section Background",
+ "default": "#ffffff"
+},
+
+    {
+  "type": "color_background",
+  "id": "trustbadge_background",
+  "label": "Trustbadge Background",
+ "default": "#ffffff"
+},
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border Radius Trustbadge",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 8
+    },
+
+      {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 10,
+      "min": 2,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+
+      {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 10,
+      "min": 2,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+     {
+      "type": "range",
+      "id": "padding_container",
+      "label": "Padding Trustbadges",
+      "default": 20,
+      "min": 10,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    }
+ 
+  ],
+  "blocks": [
+    {
+      "name": "Trustbadge GM",
+      "type": "trustbadge-gm",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon",
+          "info": "Trustbadge Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "heading",
+          "label": "Heading",
+          "default": "<h3>Free Shipping</h3>"
+        },
+        {
+          "type": "textarea",
+          "id": "paragraph",
+          "label": "Describe Heading",
+          "default": "We offer free shipping Pan India"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trustbadge GM"
+    }
+  ]
+}
+{% endschema %}
